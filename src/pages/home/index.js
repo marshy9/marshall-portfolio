@@ -1,9 +1,9 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './style.css';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Typewriter from 'typewriter-effect';
+import { introdata, meta } from '../../content_option';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (
@@ -30,6 +30,7 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
+                        introdata.animated.fourth,
                       ],
                       autoStart: true,
                       loop: true,
@@ -50,6 +51,14 @@ export const Home = () => {
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
+                  <Link to="/about">
+                    <div id="button_h" className="ac_btn btn">
+                      About Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

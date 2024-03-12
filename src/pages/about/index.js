@@ -1,14 +1,14 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import './style.css';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Container, Row, Col } from 'react-bootstrap';
 import {
   dataabout,
   meta,
   worktimeline,
   skills,
   services,
-} from "../../content_option";
+} from '../../content_option';
 
 export const About = () => {
   return (
@@ -81,7 +81,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
