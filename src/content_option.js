@@ -15,13 +15,13 @@ const introdata = {
   },
   description:
     "I'm a software engineer with 5 years of experience building applications, scripts, data pipelines, and more. I love developing with strong OOP and C++ fundamentals.",
-  your_img_url: 'https://images.unsplash.com/photo-1514790193030-c89d266d5a9d',
+  your_img_url: '/images/gundam.jpg',
 };
 
 const dataabout = {
   title: 'A bit about myself',
   aboutme:
-    "Hello, I'm an experienced Full Stack Developer who is accustomed to ramping up fast on teams and adjusting to any tech stack. I've been working at Northrop Grumman for the last 4 years, and I've had the opportunity to work on Windows apps, embedded apps, and web apps in that time.",
+    "Hello, I'm an experienced Full Stack Developer who is accustomed to ramping up fast on teams and adjusting to any tech stack. I've been working at Northrop Grumman for the last 4 years, and I've had the opportunity to work on Windows apps, embedded apps, web apps, and much more in that time.",
 };
 const worktimeline = [
   {
@@ -84,77 +84,38 @@ const services = [
 
 const dataportfolio = [
   {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+    img: 'images/proj-ng-cypi.jpg',
+    description: 'Northrop Grumman Cyber Competition utilizing Raspberry Pi',
+    link: 'https://github.com/marshy9/Cyber-Raspberry-Pi-NG-Competition/tree/main',
   },
   {
-    img: 'https://picsum.photos/400/800/?grayscale',
+    img: 'images/proj-ir-license.jpg',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'A research paper I published for a graduate level Wireless Systems class. This project included coding, data collection, research, and many hours of testing and writing.',
+    link: 'https://github.com/marshy9/Infrared-Boat-License-Detection',
   },
   {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+    img: 'images/linux-module.jpg',
+    description: 'Built a linux module, running tic-tac-toe in kernel space.',
+    link: 'https://github.com/marshy9/linux-kernel-module-tictactoe',
   },
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
+    img: 'images/proj-paddle.jpg',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'I love playing pickleball, so I built an ecomerce-ish app for comparing pickleball paddles in NextJS',
+    link: 'https://github.com/marshy9/Paddle-Comparison-App',
   },
   {
-    img: 'https://picsum.photos/400/300/?grayscale',
+    img: 'images/proj-covid.jpg',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'I made a COVID-19 data visualizer that allows the user to view COVID-19 data in a meaningful way',
+    link: 'https://github.com/marshy9/Covid-Visualizer-Website',
   },
   {
-    img: 'https://picsum.photos/400/700/?grayscale',
+    img: 'images/proj-8086.jpg',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-
-  {
-    img: 'https://picsum.photos/400/600/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/550/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'I got to do some 8086 microprocessor board design, layout, and programming.',
+    link: 'https://github.com/marshy9/8086-Micro-Processor-Board-Project',
   },
 ];
 
