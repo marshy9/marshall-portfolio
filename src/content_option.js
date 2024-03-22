@@ -91,7 +91,7 @@ const dataportfolio = [
   {
     img: 'images/proj-ir-license.jpg',
     description:
-      'A research paper I published for a graduate level Wireless Systems class. This project included coding, data collection, research, and many hours of testing and writing.',
+      'A research paper I published for a graduate level Wireless Systems class.',
     link: 'https://github.com/marshy9/Infrared-Boat-License-Detection',
   },
   {
