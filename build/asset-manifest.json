@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/marshall-portfolio/static/css/main.d2828ca0.css",
+    "main.js": "/marshall-portfolio/static/js/main.85be3d2d.js",
+    "index.html": "/marshall-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.d2828ca0.css",
+    "static/js/main.85be3d2d.js"
+  ]
+}
