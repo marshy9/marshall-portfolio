@@ -15,7 +15,7 @@ const introdata = {
   },
   description:
     "I'm a software engineer with 5 years of experience building applications, scripts, data pipelines, and more. I love developing with strong OOP and C++ fundamentals.",
-  your_img_url: '/images/gundam.jpg',
+  img: 'images/gundam.jpg',
 };
 
 const dataabout = {
