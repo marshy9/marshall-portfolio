@@ -99,7 +99,7 @@ section {
 }
 
 .ac_btn {
-  padding: 4px 17px;
+  padding: 4px 19px;
   color: var(--secondary-color);
   position: relative;
   border: var(--secondary-color) 2px solid;
@@ -108,6 +108,7 @@ section {
   cursor: pointer;
   border-radius: 0;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .ac_btn a {
