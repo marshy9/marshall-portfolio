@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
-import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import React, { useState } from 'react';
+import * as emailjs from 'emailjs-com';
+import './style.css';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { meta } from '../../content_option';
+import { Container, Row, Col, Alert } from 'react-bootstrap';
+import { contactConfig } from '../../content_option';
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
-    email: "",
-    name: "",
-    message: "",
+    email: '',
+    name: '',
+    message: '',
     loading: false,
     show: false,
-    alertmessage: "",
-    variant: "",
+    alertmessage: '',
+    variant: '',
   });
 
   const handleSubmit = (e) => {
@@ -40,8 +40,8 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
-            variant: "success",
+            alertmessage: 'SUCCESS! ,Thankyou for your messege',
+            variant: 'success',
             show: true,
           });
         },
@@ -49,10 +49,10 @@ export const ContactUs = () => {
           console.log(error.text);
           setFormdata({
             alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
+            variant: 'danger',
             show: true,
           });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          document.getElementsByClassName('co_alert')[0].scrollIntoView();
         }
       );
   };
@@ -84,7 +84,7 @@ export const ContactUs = () => {
               //show={formData.show}
               variant={formData.variant}
               className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
+                formData.show ? 'd-block' : 'd-none'
               }`}
               onClose={() => setFormdata({ show: false })}
               dismissible
@@ -95,24 +95,26 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
+              <br />
+              <strong>Email:</strong>{' '}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {contactConfig.hasOwnProperty('YOUR_FONE') ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
-                ""
+                ''
               )}
             </address>
             <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <form onSubmit={handleSubmit} className="contact__form w-100">
+            <img src={contactConfig.img} alt="" style={{ maxWidth: '50%' }} />
+            {/* <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
                   <input
@@ -157,11 +159,11 @@ export const ContactUs = () => {
                   </button>
                 </Col>
               </Row>
-            </form>
+            </form> */}
           </Col>
         </Row>
       </Container>
-      <div className={formData.loading ? "loading-bar" : "d-none"}></div>
+      <div className={formData.loading ? 'loading-bar' : 'd-none'}></div>
     </HelmetProvider>
   );
 };

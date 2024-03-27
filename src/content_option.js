@@ -14,7 +14,7 @@ const introdata = {
     fifth: 'I solve tough problems',
   },
   description:
-    "I'm a software engineer with 5 years of experience building applications, scripts, data pipelines, and more. I love developing with strong OOP and C++ fundamentals.",
+    "I'm a software engineer with 5 years of experience building applications, scripts, data pipelines, and more. I love developing with strong OOP fundamentals.",
   img: 'images/gundam.jpg',
 };
 
@@ -124,6 +124,7 @@ const contactConfig = {
   YOUR_FONE: '(410) 980-0850',
   description:
     "Please reach out to discuss how my skills and experience can contribute to your team's success. Don't forget to leave your contact info.",
+  img: 'images/profile.jpg',
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: 'service_sfzi2xo',
